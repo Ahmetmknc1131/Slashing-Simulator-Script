@@ -2,6 +2,6 @@ getgenv().rebirth = false;
 
 while wait() do
     if getgenv().rebirth == true then
-        game:GetService("ReplicatedStorage").Remotes.Other.Rebirth:FireServer(10); /// oto rebirth kapat
+        game:GetService("ReplicatedStorage").Remotes.Other.Rebirth:FireServer(10);
 end
 end
