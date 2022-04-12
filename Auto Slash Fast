@@ -1,0 +1,7 @@
+getgenv().power = true;
+
+while wait() do
+    if getgenv().power == true then
+        game:GetService("ReplicatedStorage").Remotes.Game.AirSlice:FireServer();
+    end
+end
